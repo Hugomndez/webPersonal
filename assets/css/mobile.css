@@ -6,6 +6,7 @@
 
 html {
     font-size: 62.5%;
+    font-family: 'Nunito', sans-serif;
 }
 .container {
     display: flex;
@@ -27,7 +28,6 @@ html {
     letter-spacing: 0.1rem;
     color: #222;
     word-wrap: break-word;
-    font-family: Helvetica Neue;
 }
 .header-nav {
     height: 50%;
