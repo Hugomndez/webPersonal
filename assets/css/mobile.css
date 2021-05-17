@@ -65,9 +65,17 @@ html {
     display: inline;
 }
 .main-content h1 {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
+    margin: 0 0 1.5rem 0;
+    color: #333;
+    line-height: 1.3em;
+}
+.main-content h2 {
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
     margin: 0 0 1.5rem 0;
     color: #333;
     line-height: 1.3em;
@@ -75,7 +83,8 @@ html {
 .main-content p {
      margin: 0 0 1em 0;
      color: #555;
-     font-size: 1.6rem; 
+     font-size: 1.6rem;
+     font-weight: 300; 
     }
 .main-content__line {
     height: 0.1rem;
