@@ -72,7 +72,7 @@ html {
     color: #333;
     line-height: 1.3em;
 }
-.main-content h2 {
+.main-content__article h2 {
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
@@ -80,7 +80,7 @@ html {
     color: #333;
     line-height: 1.3em;
 }
-.main-content p {
+.main-content__text {
      margin: 0 0 1em 0;
      color: #555;
      font-size: 1.6rem;
