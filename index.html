@@ -57,9 +57,22 @@
     </header>
     <main class="main main-content">
             <hr class="main-content__line">
-            <figure class="main-content__img">
-                <img src="./assets/imgs/cover.jpg" alt="Random intro image" width="150px" height="100px">
-            </figure>
+            <picture class="main-content__img">
+
+                <source type="image/webp" 
+                        media="(max-width: 799px)"
+                        srcset="./assets/imgs/cover/coverSmall.webp">
+
+                <source type="image/webp"
+                        media="(min-width: 800px)"
+                        srcset="./assets/imgs/cover/coverLarge.webp">
+
+                <source type="image/jpg"
+                        media="(max-width: 799px)"
+                        srcset="./assets/imgs/cover/coverSmall.jpg">
+                        
+                <img src="./assets/imgs/cover/coverLarge.jpg" alt="Random intro image" width="150px" height="100px">
+            </picture>
             <h1>Hi, I am Hugo Mendez</h1>
            <article class="main-content__article">
             <h2>A financial advisor interested in Finance and Technology.</h2>
