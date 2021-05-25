@@ -1,13 +1,14 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 html {
+    box-sizing: border-box;
     font-size: 62.5%;
     font-family: 'Nunito', sans-serif;
     background-color: white;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
 }
 .container {
     display: flex;
@@ -46,7 +47,9 @@ html {
     padding: 0.5rem;
 }
 
-.header-nav .current a { color: #aaa}
+.header-nav .current a {
+    color: #aaa
+}
 
 .header-nav__item a:hover {
     color: #222;
