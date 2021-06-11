@@ -1,98 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Hugo Mendez">
-    <meta name="description" content="Hugo Mendez portfolio and writings on finance and web development.">
-    <meta name="robots" content="index,follow">
-    <title>Hugo Mendez</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Hugo Ricardo Méndez Canul" />
+    <meta
+      name="description"
+      content="Hugo Méndez web development portfolio and writings on finance."
+    />
+    <meta name="robots" content="index,follow" />
+    <title>Hugo Méndez</title>
+    <link rel="stylesheet" href="./assets/css/mobile.css" />
     <link
-            rel="stylesheet"
-            href="./assets/css/mobile.css"
-    >
-    <link
-            rel="stylesheet"
-            href="./assets/css/tablet.css"
-            media="screen and (min-width: 600px)"
-    >
-    <link   rel="stylesheet"
-            href="./assets/css/desktop.css"
-            media="screen and (min-width: 800px)"
-    >
-    <link   rel="preconnect"
-            href="https://fonts.gstatic.com"
-    >
-    <link
-            rel="preload"
-            as="style"
-            href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;800&display=swap"
+      rel="stylesheet"
+      href="./assets/css/tablet.css"
+      media="screen and (min-width: 600px)"
     />
     <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;800&display=swap"
-            media="print"
-            onload="this.media='all'"
+      rel="stylesheet"
+      href="./assets/css/laptop.css"
+      media="screen and (min-width: 800px)"
     />
- <noscript>
     <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;800&display=swap"
+    rel="stylesheet"
+    href="./assets/css/desktop.css"
+    media="screen and (min-width: 1500px)"
+  />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;800&display=swap"
     />
- </noscript>
-</head>
-<body class="container">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;800&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;800&display=swap"
+      />
+    </noscript>
+  </head>
+  <body class="container">
     <header class="header">
-        <div class="header-title">
-            <a href="/" title="Hugo Mendez" rel="Home">Hugo Mendez</a>
-        </div>
-        <nav class="header-nav">
-            <ul>
-                <li class="header-nav__item current"><a href="/">Home</a></li>
-                <li class="header-nav__item"><a href="#">Projects</a></li>
-                <li class="header-nav__item"><a href="#">Blog</a></li>
-            </ul>
-        </nav>
+      <div class="header-title">
+        <a href="/" title="Hugo Méndez" rel="Home">Hugo Méndez</a>
+      </div>
+      <nav class="header-nav">
+        <ul>
+          <li class="header-nav__item current"><a href="/">Home</a></li>
+          <li class="header-nav__item"><a href="#">Projects</a></li>
+          <li class="header-nav__item"><a href="#">Blog</a></li>
+        </ul>
+      </nav>
     </header>
     <main class="main main-content">
-            <hr class="main-content__line">
-            <picture class="main-content__img">
-                <source type="image/webp"
-                        media="(max-width: 799px)"
-                        srcset="./assets/imgs/cover/coverSmall.webp">
+      <hr class="main-content__line" />
+      <picture class="main-content__img">
+        <source
+          type="image/webp"
+          media="(max-width: 799px)"
+          srcset="./assets/imgs/cover/coverSmall.webp"
+        />
 
-                <source type="image/webp"
-                        media="(min-width: 800px)"
-                        srcset="./assets/imgs/cover/coverLarge.webp">
+        <source
+          type="image/webp"
+          media="(min-width: 800px)"
+          srcset="./assets/imgs/cover/coverLarge.webp"
+        />
 
-                <source type="image/jpg"
-                        media="(max-width: 799px)"
-                        srcset="./assets/imgs/cover/coverSmall.jpg">
-                <img src="./assets/imgs/cover/coverLarge.jpg" alt="Random intro image" width="150px" height="100px">
-            </picture>
-            <h1>Hi, I am Hugo Mendez</h1>
-           <article class="main-content__article">
-            <h2>A financial advisor interested in Finance and Technology.</h2>
-            <p class="main-content__text">
-                At <a href="http://eredita.mx/index.html" target="_blank">Eredita</a>, I currently work on Financial Consulting helping people achieve financial freedom.</p>
-            <!--<p class="main_content__text">Prior to Eredita; I was at Servicios Especiales working as a tour operator.</p>-->
-           </article>
-            <hr class="main-content__line">
+        <source
+          type="image/jpg"
+          media="(max-width: 799px)"
+          srcset="./assets/imgs/cover/coverSmall.jpg"
+        />
+        <img
+          src="./assets/imgs/cover/coverLarge.jpg"
+          alt="Random intro image"
+          width="150px"
+          height="100px"
+        />
+      </picture>
+      <h1>Hi, I am Hugo Méndez</h1>
+      <article class="main-content__article">
+        <h2>A financial advisor interested in Finance and Technology.</h2>
+        <p class="main-content__text">
+          At <a href="http://eredita.mx/index.html" target="_blank">Eredita</a>,
+          I currently work on Financial Consulting helping people achieve
+          financial freedom.
+        </p>
+        <!--<p class="main_content__text">Prior to Eredita; I was at Servicios Especiales working as a tour operator.</p>-->
+      </article>
+      <hr class="main-content__line" />
     </main>
     <footer class="footer">
-        <div class="footer_links">
-            <a href="https://www.linkedin.com/in/hugomndez/" rel="me" target="_blank">LinkedIn</a>
-            <a href="https://github.com/Hugomndez" rel="me" target="_blank">Github</a>
-            <!-- <a href="#" rel="me" target="_blank">Facebook</a> -->
-            <a href="https://www.instagram.com/hugomndez/" rel="me" target="_blank">Instagram</a>
-            <!-- <a href="#" rel="me" target="_blank">Twitter</a> -->
-            <a href="mailto:hola@hugomendez.dev" rel="me" target="_blank">Email</a>
-        </div>
+      <div class="footer_links">
+        <a
+          href="https://www.linkedin.com/in/hugomndez/"
+          rel="me"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a href="https://github.com/Hugomndez" rel="me" target="_blank"
+          >Github</a
+        >
+        <!-- <a href="#" rel="me" target="_blank">Facebook</a> -->
+        <a href="https://www.instagram.com/hugomndez/" rel="me" target="_blank"
+          >Instagram</a
+        >
+        <!-- <a href="#" rel="me" target="_blank">Twitter</a> -->
+        <a href="mailto:hello@hugomendez.dev" rel="me" target="_blank">Email</a>
+      </div>
 
-        <div class="footer-copyright">
-            &copy; 2021–2022 <a href="/">Hugo Mendez</a>. All rights reserved.
-          </div>
+      <div class="footer-copyright">
+        &copy; 2021 <a href="/">Hugo Méndez</a>. All rights reserved.
+      </div>
     </footer>
-</body>
+  </body>
 </html>

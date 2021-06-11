@@ -2,16 +2,13 @@
     width: 600px;
     margin-left: auto;
     margin-right: auto;
-    justify-content: space-evenly;
-
+}
+.header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 15vh;
 }
 .header-title {
-    float: left;
-    border-bottom: 0;
-}
-.header-nav {
-   float: right;
-   text-align: right;
-   width: auto;
-   margin-top: 2rem;
-}
+    border-bottom: none;
+  }
