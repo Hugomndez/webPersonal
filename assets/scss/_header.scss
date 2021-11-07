@@ -1,0 +1,47 @@
+.header {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &-title {
+    height: 50%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 0.1rem solid #eee;
+
+    & a {
+      font-size: 3rem;
+      letter-spacing: 0.1rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      word-wrap: break-word;
+      color: #222;
+    }
+  }
+
+  &-nav {
+    height: 50%;
+    display: inline-block;
+
+    & .current a {
+      color: #aaa;
+    }
+
+    &__item {
+      display: inline-block;
+      font-size: 1.8rem;
+
+      & a {
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 0.5rem;
+
+        &:hover {
+          color: #222;
+        }
+      }
+    }
+  }
+}

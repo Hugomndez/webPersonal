@@ -1,27 +1,28 @@
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
-}
-
 html {
   box-sizing: border-box;
   font-size: 62.5%;
-}
-
-body {
   font-family: "Nunito", sans-serif;
   background-color: white;
 }
-
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  min-width: 300px;
+  width: auto;
+  padding: 0 1.5rem;
+}
+/* Header ----------------------------------------------------- */
 .header {
   height: 20vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 .header-title {
   height: 50%;
@@ -31,18 +32,15 @@ body {
 }
 .header-title a {
   font-size: 3rem;
-  letter-spacing: 0.1rem;
   text-decoration: none;
   text-transform: uppercase;
-  word-wrap: break-word;
+  letter-spacing: 0.1rem;
   color: #222;
+  word-wrap: break-word;
 }
 .header-nav {
   height: 50%;
   display: inline-block;
-}
-.header-nav .current a {
-  color: #aaa;
 }
 .header-nav__item {
   display: inline-block;
@@ -53,24 +51,28 @@ body {
   text-transform: uppercase;
   padding: 0.5rem;
 }
+
+.header-nav .current a {
+  color: #aaa;
+}
 .header-nav__item a:hover {
   color: #222;
 }
-
-.main-content h1 {
-  font-size: 2.4rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.3em;
-  margin: 0 0 1.5rem 0;
-  color: #333;
-}
+/* Main ---------------------------------------------------------- */
 .main-content__img {
   float: left;
 }
 .main-content__img img {
   width: 150px;
   margin: 0.3rem 1rem 0 0;
+}
+.main-content h1 {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0 0 1.5rem 0;
+  color: #333;
+  line-height: 1.3em;
 }
 .main-content__article {
   display: inline;
@@ -96,7 +98,7 @@ body {
   margin: 1.692307rem 0 1.692307rem 0;
   padding: 0;
 }
-
+/* Footer -------------------------------------------------------- */
 .footer {
   display: flex;
   flex-direction: column;
@@ -111,12 +113,11 @@ body {
 .footer a {
   text-decoration: underline;
 }
-.footer a::after {
+
+.footer .footer_links a::after {
   content: " | ";
 }
 .footer-copyright {
   font-size: 1.2rem;
   padding: 0 0 1rem;
 }
-
-/*# sourceMappingURL=mobile.css.map */
